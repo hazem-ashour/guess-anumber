@@ -1,0 +1,52 @@
+section {
+  width: 600px;
+  margin: 150px auto;
+  text-align: center;
+}
+section h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: green;
+}
+section input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+}
+.warning-massage {
+  font-size: 25px;
+  color: red;
+}
+section h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: blue;
+}
+button {
+  margin: 20px;
+  height: 42px;
+  width: 120px;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+button.play-btn {
+  background-color: blue;
+}
+button.play-btn:hover {
+  background-color: rgb(9, 9, 138);
+}
+button.reset-btn {
+  background-color: red;
+}
+button.reset-btn:hover {
+  background-color: rgb(160, 7, 7);
+}
+.result {
+  color: green;
+  font-size: 30px;
+}
